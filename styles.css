@@ -6,6 +6,9 @@ h6 {
     font-size: 20px;
 }
 
+.message {
+    text-align: justify;
+}
 
 
 .slideshow-container {
