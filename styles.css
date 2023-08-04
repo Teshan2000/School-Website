@@ -105,3 +105,11 @@ h6 {
     width: 100%;
     height: 100%;
 }
+
+.card-bg {
+    background-color: goldenrod;
+}
+
+.button {
+    background-color: goldenrod;
+}
