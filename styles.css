@@ -93,7 +93,6 @@ h6 {
 
 * {box-sizing: border-box}
 
-/* Style tab links */
 .tablink {
   background-color: #555;
   color: white;
@@ -109,7 +108,6 @@ h6 {
   background-color: #777;
 }
 
-/* Style the tab content (and add height:100% for full page content) */
 .tabcontent {
   color: white;
   display: contents;
