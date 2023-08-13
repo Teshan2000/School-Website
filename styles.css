@@ -94,7 +94,7 @@ h6 {
 * {box-sizing: border-box}
 
 .tablink {
-  background-color: #555;
+  background-color: goldenrod;
   color: white;
   float: left;
   border: none;
@@ -105,7 +105,7 @@ h6 {
 }
 
 .tablink:hover {
-  background-color: #777;
+  background-color: gold;
 }
 
 .tabcontent {
@@ -118,7 +118,7 @@ h6 {
 #Sportsmeet, #ThaiPongal, #Mihisara, 
 #Parade, #BigMatch, #NewYear, 
 #Exhibition, #ArtFestival, #PrizeGiving {
-    background-color:darkgoldenrod;
+    background-color:orange;
 }
 
 
