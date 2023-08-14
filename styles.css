@@ -153,3 +153,7 @@ h6 {
 .i-con {
     color: goldenrod;
 }
+
+.news-text {
+    text-align: justify;
+}
