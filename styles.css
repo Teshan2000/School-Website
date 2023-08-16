@@ -12,7 +12,7 @@ h6 {
 
 
 .slideshow-container {
-    max-width: fit-content;
+    background-size: cover;
     position: relative;
     margin: auto;
 }
@@ -110,7 +110,7 @@ h6 {
 
 .tabcontent {
   color: white;
-  display: contents;
+  display: none;
   padding: 100px 20px;
   height: 100%;
 }
