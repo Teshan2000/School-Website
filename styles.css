@@ -2,6 +2,11 @@ a {
     text-decoration: none;
 }
 
+.nav-link.active, .nav-link:hover {
+    color: gold;
+    background-color: gold;
+}
+
 h6 {
     font-size: 20px;
 }
@@ -9,6 +14,11 @@ h6 {
 .message {
     text-align: justify;
 }
+
+.bg-image {
+    background-color: goldenrod;
+}
+
 
 
 .slideshow-container {
