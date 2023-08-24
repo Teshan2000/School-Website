@@ -2,7 +2,7 @@ a {
     text-decoration: none;
 }
 
-.nav-link.active, .nav-link:hover {
+.nav-link.active{
     color: gold;
     background-color: gold;
 }
