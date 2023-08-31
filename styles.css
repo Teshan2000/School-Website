@@ -7,6 +7,8 @@ a {
     background-color: gold;
 }
 
+/* .nav-link:hover {} */
+
 h6 {
     font-size: 20px;
 }
@@ -23,6 +25,25 @@ h6 {
     font-size: 18px;
 }
 
+.card-bg {
+    background-color: goldenrod;
+}
+
+.heading-4 {
+    color: goldenrod;
+}
+
+.button {
+    background-color: goldenrod;
+}
+
+.i-con {
+    color: goldenrod;
+}
+
+.news-text {
+    text-align: justify;
+}
 
 
 .slideshow-container {
@@ -152,22 +173,3 @@ h6 {
     height: 100%;
 }
 
-.card-bg {
-    background-color: goldenrod;
-}
-
-.heading-4 {
-    color: goldenrod;
-}
-
-.button {
-    background-color: goldenrod;
-}
-
-.i-con {
-    color: goldenrod;
-}
-
-.news-text {
-    text-align: justify;
-}
