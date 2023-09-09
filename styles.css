@@ -46,6 +46,88 @@ h6 {
 }
 
 
+/*Image Container*/
+
+.image1 {
+    bottom: 17%;
+    left: 60%;
+}
+
+.image2 {
+    right: 30%;
+    top: -5%;
+}
+
+.image3 {
+    bottom: 17%;
+    left: -30%;
+}
+
+.image4 {
+    right: 30%;
+    bottom: -8%;
+}
+
+.image5 {
+    bottom: 17%;
+    left: 110%;
+}
+
+.image6 {
+    right: -20%;
+    top: -5%;
+}
+
+.image7 {
+    right: -20%;
+    bottom: -8%;
+}
+
+.image8 {
+    bottom: 17%;
+    left: 20%;
+}
+
+
+.image-container_area {
+    width: 90%;
+}
+
+.image_container {
+    position: relative;
+    width: 400px !important;
+    height: 535px !important;
+}
+
+.image_container img {
+    position: absolute;
+    width: calc(100% - 180px);
+    height: calc(100% - 170px);
+    object-fit: cover;
+    box-shadow: 0 6px 20px 0 rgba(21, 24, 23, 0.44);
+}
+
+.image_description h5{
+    font-size: 32px;
+    padding: 20px 0px !important;
+}
+
+.image_description p{
+    font-size: 18px;
+}
+
+.image_description::before, .image_description::after {
+    width: 5px;
+    left: 50%;
+    right: 50%;
+    content: "";
+    display: inline-block;
+    height: 100px;
+    background-color: gold;
+}
+
+
+
 .slideshow-container {
     background-size: cover;
     position: relative;
