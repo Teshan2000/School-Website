@@ -232,10 +232,10 @@ h6 {
   height: 100%;
 }
 
-#Sportsmeet, #ThaiPongal, #Mihisara, 
-#Parade, #BigMatch, #NewYear, 
+#Sportsmeet, #NewYear, #Mihisara, 
+#Parade, #BigMatch, #Vesak, 
 #Exhibition, #ArtFestival, #PrizeGiving {
-    background-color:gold;
+    background-color:goldenrod;
 }
 
 
