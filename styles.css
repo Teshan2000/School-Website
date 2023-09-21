@@ -7,8 +7,6 @@ a {
     background-color: gold;
 }
 
-/* .nav-link:hover {} */
-
 h6 {
     font-size: 20px;
 }
@@ -127,6 +125,7 @@ h6 {
 }
 
 
+/*Carousal Slideshow*/
 
 .slideshow-container {
     background-size: cover;
@@ -136,48 +135,6 @@ h6 {
   
 .mySlides {
     display:contents;
-}
-
-.prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -22px;
-    padding: 16px;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-}
-  
-.next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-} 
-
-.prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
-}
-  
-.text {
-    color: #f2f2f2;
-    font-size: 15px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
-    width: 100%;
-    text-align: center;
-}
-  
-.numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
 }
   
 .dot {
@@ -194,19 +151,9 @@ h6 {
 .active, .dot:hover {
     background-color: #717171;
 }
-  
-/* Fading animation 
-.fade {
-    animation-name: fade;
-    animation-duration: 1.5s;
-}*/
-  
-@keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-}
-  
 
+  
+/*Tab Groups*/
 
 * {box-sizing: border-box}
 
@@ -228,7 +175,7 @@ h6 {
 .tabcontent {
   color: white;
   display: none;
-  padding: 100px 20px;
+  padding: 50px 20px;
   height: 100%;
 }
 
@@ -237,21 +184,3 @@ h6 {
 #Exhibition, #ArtFestival, #PrizeGiving {
     background-color:goldenrod;
 }
-
-
-
-.embed-container {
-    position: relative;
-    padding-bottom: 70.75%;
-    height: 0;
-    overflow: hidden;
-}
-
-.embed-container iframe {
-    position: absolute;
-    top:0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
